@@ -1,0 +1,542 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000;
+}
+
+/* header css starts here */
+
+.nav-bar {
+    min-height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    z-index: 10;
+}
+
+.netflix-logo {
+    width: 140px;
+    margin-top: 1.5rem;
+}
+
+.aside span {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.aside span i {
+    position: absolute;
+    color: white;
+    z-index: 5;
+    top: 5.5px;
+    left: 5px;
+}
+
+.language-select {
+    background-color: transparent;
+    color: #d6d6d6;
+    padding: 5px 10px 5px 28px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.language-select option {
+    color: #000;
+}
+
+.si-btn {
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px 14px 5px 14px;
+}
+
+/* header css ends here */
+
+
+/* banner css starts here */
+.splash {
+    min-height: 80vh;
+}
+
+.banner {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0.44;
+    border-bottom: 5px solid #fff;
+}
+
+.banner-desc {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 12rem;
+}
+
+.check-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.banner-desc> :nth-child(1) {
+    font-size: 50px;
+    position: relative;
+    z-index: 5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner-desc> :nth-child(2) {
+    font-size: 30px;
+    font-weight: 400;
+    position: relative;
+    z-index: 5;
+}
+
+.banner-desc> :nth-child(3) {
+    font-size: 30px;
+    font-weight: 400;
+    position: relative;
+    z-index: 5;
+}
+
+.banner-desc span input {
+    width: 320px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    padding: 10px 25px 10px 8px;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    position: relative;
+    z-index: 5;
+}
+
+.gs-btn {
+    width: 180px;
+    height: 50px;
+    padding: 10px 15px 10px 15px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    z-index: 5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* banner css ends here */
+
+/* advetise css starts here */
+
+.advertise-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    border-bottom: 5px solid #222;
+}
+
+.flex-img {
+    width: 440px;
+    background-color: transparent;
+    position: relative;
+    z-index: 10;
+}
+
+.r-flex {
+    position: relative;
+}
+
+.r-flex video {
+    position: absolute;
+    top: 62px;
+    right: 56px;
+    width: 73%;
+}
+
+.l-flex> :nth-child(1) {
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.l-flex> :nth-child(2) {
+    font-size: 25px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.advertise-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    border-bottom: 5px solid #222;
+}
+
+.l-flex-1 {
+    position: relative;
+}
+
+.flex-img-1 {
+    width: 450px;
+    background-color: transparent;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    position: absolute;
+    bottom: 10px;
+    left: 72px;
+    width: 300px;
+    height: 120px;
+    border: 1px solid #d6d6d6;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.box-img {
+    width: 60px;
+    height: 80px;
+}
+
+.box-title> :nth-child(1) {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.box-title> :nth-child(2) {
+    font-size: 15px;
+    font-weight: 400;
+    color: blue;
+    margin-top: 5px;
+}
+
+.r-flex-1> :nth-child(1) {
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+
+.r-flex-1> :nth-child(2) {
+    font-size: 22px;
+    text-align: justify;
+}
+
+.advertise-3 {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    border-bottom: 5px solid #222;
+}
+
+.blank {
+    width: 450px;
+    background-color: #000;
+}
+
+.l-flex-2> :nth-child(1) {
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+}
+
+.l-flex-2> :nth-child(2) {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+/* advertise css ends here */
+
+.faq {
+    min-height: 100vh;
+    padding: 70px 30px;
+    cursor: pointer;
+    border-bottom: 5px solid #222;
+
+}
+
+.faq h1 {
+    font-size: 3.125rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.questions {
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.question {
+    position: relative;
+    background-color: #303030;
+    margin-bottom: 8px;
+}
+
+.question:hover {
+    background-color: #414141;
+}
+
+.question i {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    transform: rotate(45deg);
+    transition: all 0.4s ease;
+}
+
+.head {
+    padding: 20px 30px;
+    border-bottom: 1px solid black;
+    display: block;
+}
+
+.content {
+    text-align: justify;
+    padding: 0 30px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 0.4s ease;
+}
+
+.question input[type="checkbox"]:checked~.content {
+    padding: 30px 30px;
+    max-height: 600px;
+}
+
+.question input[type="checkbox"] {
+    display: none;
+}
+
+.question input[type="checkbox"]:checked~.head i {
+    transform: rotate(0deg);
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 3rem;
+    gap: 1rem;
+}
+
+.footer-info p {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.footer-info input {
+    width: 320px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    padding: 10px 25px 10px 8px;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    position: relative;
+    z-index: 5;
+}
+
+/* footer css sarts here */
+
+.foot-end {
+    min-height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 30px 0;
+    overflow: hidden;
+}
+
+.foot-end-1,
+.foot-end-2,
+.foot-end-3,
+.foot-end-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: auto;
+    gap: 1.5rem;
+}
+
+.foot-end a {
+    color: #ffffffb3;
+}
+
+.foot-end p {
+    color: #ffffffb3;
+}
+
+/* footer css ends here */
+
+/* resposive starts here */
+
+@media (max-width:668px) {
+    body {
+        width: 100vw;
+    }
+
+    .nav-bar {
+        padding: 5px 20px;
+    }
+
+    .netflix-logo {
+        width: 110px;
+    }
+
+    .language-select{
+        padding: 3px 10px;
+    }
+    .aside i{
+        display: none;
+    }
+    .si-btn{
+        padding: 1px 10px 1px 10px;
+    }
+    .banner-desc{
+        margin-top:5rem;
+    }
+    .banner-desc > :nth-child(1){
+        font-size: 22px;
+        text-align: center;
+    }
+    .banner-desc > :nth-child(2){
+        font-size: 1rem;
+        font-weight: 200;
+        text-align: center;
+    }
+    .banner-desc > :nth-child(3){
+        font-size: 1rem;
+        font-weight: 200;
+        text-align: center;
+    }
+    .banner-desc span input{
+        width: 250px;
+        height: 35px;
+        font-size: 10px;
+        padding: 10px 20px 10px 5px;
+    }
+    .gs-btn {
+        width: 140px;
+        height: 35px;
+        padding: 5px 10px 5px 10px;
+        font-size: 14px;
+    }
+    .advertise-1 {
+        flex-direction: column;
+        margin: 40px 0;
+    }
+    .l-flex{
+        margin-top: 25px;
+    }
+    .l-flex> :nth-child(1) {
+        font-size: 22px;
+        text-align: center;
+    }
+    .l-flex> :nth-child(2) {
+        font-size: 16px;
+        font-weight: 200;
+        text-align: center;
+    }
+    .advertise-2{
+        flex-direction: column;
+        margin: 40px 0;
+    }
+    
+.r-flex-1> :nth-child(1) {
+    font-size: 22px;
+    text-align: center;
+}
+
+.r-flex-1> :nth-child(2) {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 5px;
+}
+.advertise-3{
+    flex-direction: column;
+    margin: 40px 0;
+}
+.l-flex-2> :nth-child(1) {
+    font-size: 22px;
+    text-align: center;
+}
+
+.l-flex-2> :nth-child(2) {
+    font-size: 16px;
+    font-weight: 200;
+    text-align: center;
+}
+.faq h1{
+    font-size: 2rem;
+}
+.questions{
+    width: 600px;
+}
+.footer-info p{
+    font-size: 16px;
+    text-align: center;
+}
+.info-last input{
+    width: 250px;
+    height: 35px;
+    font-size: 10px;
+    padding: 10px 20px 10px 5px;
+}
+.footer-end{
+   padding: 0 50px ;
+}
+
+.foot-end-1,
+.foot-end-2,
+.foot-end-3,
+.foot-end-4{
+    padding: 20px 15px;
+}
+}
+
+
+/* responsive ends here */
